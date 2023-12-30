@@ -202,7 +202,7 @@
    }
    .product-box{
     position: relative;
-    background: #ffffff;
+    background: #FFFFCC;
     padding: 7px;
     gap: 3rem;
     height: 90%;
@@ -221,7 +221,7 @@
    }
    .product-img{
     width:100%;
-    height:65%;
+    height:55%;
     margin-bottom: 0rem;
   border-radius: 5px;
    }

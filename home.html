@@ -1,0 +1,655 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<title>ART GALLARY</title>
+<link rel="stylesheet" href="stylenc.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+        body{
+            text-transform: capitalize;
+        }
+    </style>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <style>
+    
+   .mar white{<section class="shop container">
+    width:100%;
+    font-size:30px;
+    font-weight:bold;
+    text-align:centre;   
+}
+
+a{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+	
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+		}
+	.section{
+          width: 100%;
+          height: 100vh;
+          background-color: #ffccff;
+	}
+	.container{
+		width: 80%;
+		display: block;
+		margin: auto;
+		padding-top: 100px;
+		
+    }
+    .content-section{
+    	float: left;
+    	width: 50%;
+    }
+    .image-section{
+     float: right;
+    	width: 45%;
+    }
+    .image-section img{
+    	width: 100%;
+    	height: auto;
+    	border: 1px solid blue;
+    }
+    .title{
+    	margin: 15px;
+    	text-transform: uppercase;
+    }
+    .content h3{
+    	margin: 10px;
+    	padding: 5px;
+    	text-align: justify;
+
+    }
+    .content p{
+    	margin: 5px;
+    	text-align: justify;
+    	padding: 10px;
+    }
+    .content-section .button a{
+    	margin: 5px;
+    	padding: 10px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: block;
+    	width: 150px;
+    	background-color: green;
+    	color: white;
+    }
+    .content-section .button a:hover{
+        background-color: grey;
+        color: black;
+        font-size: 20px;
+    }
+.container2{
+     margin-top:10px;
+}
+
+.button {
+	color: blue;
+	border-style: solid;
+	border-width: 2px;
+	
+    	border-radius: 10px;
+	background-color: #999999;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.button_2 {
+	color: white;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: blue;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	height: 30px;
+	width: 200px;
+	border-width: 0px;
+}
+
+</style>
+</style>
+</head>
+<header>
+<nav class="navbar navbar-expand-sm bg-light navbar-custom sticky-top ">
+
+<a href="#" class="navbar-brand ms-4 mx-4"><img class = rounded-pill src="https://img.freepik.com/free-photo/modern-art-studio-composition_23-2147868319.jpg?w=740&t=st=1691496634~exp=1691497234~hmac=034b5b8235ec762c9a9256e291de1ee143272a2d4ae93f1aad7aad1f4d594563" width="70" height="70"></a>
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div id="list" class="navbar-collapse collapse">
+<ul class="navbar-nav ">
+<li class="nav-item ms-4 mx-4">
+<a href="#slider" class="nav-link ">HOME</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle ms-4 mx-4" role="button" data-bs-toggle="dropdown" >ART WORKS</a>
+<ul class="dropdown-menu dropdown-menu-right bg-Secondary">
+<li>
+<a href="#Available" class="dropdown-item">Available Artworks</a>
+</li>
+<li>
+<a href="#soldarts" class="dropdown-item">Sold Artworks</a>
+</li>
+</ul>
+</li>
+
+
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle ms-4 mx-4" role="button" data-bs-toggle="dropdown" >ARTS</a>
+<ul class="dropdown-menu dropdown-menu-right bg-Secondary">
+<!--<li>
+<a href="sculpture.html" class="dropdown-item">Painting</a>
+</li>-->
+<li>
+<a href="painting.html" class="dropdown-item">painting</a>
+</li>
+<li>
+<a href="sculpture.html" class="dropdown-item">Sculptors</a>
+</li>
+<li>
+<a href="photograph.html" class="dropdown-item">Photographs</a>
+</li>
+<li>
+<a href="tattoo.html" class="dropdown-item">Tatto Arts</a>
+</li>
+<li>
+<a href="textile.html" class="dropdown-item">Textile Arts</a>
+</li>
+<li>
+<a href="craft.html" class="dropdown-item">Craft Arts</a>
+</li>
+<li>
+<a href="calligraphy.html" class="dropdown-item">Calligraphers</a>
+</li>
+</ul>
+</li>
+
+<li class="nav-item ms-4 mx-4">
+<a href="#about" class="nav-link ">ART GUIDE</a>
+</li>
+<li class="nav-item ms-4 mx-4">
+<a href="about.html" class="nav-link ">ABOUT US</a>
+</li>
+
+<li class="nav-item ms-4 mx-4">
+<a href="help.html" class="nav-link ">HELP</a>
+</li>
+</ul>
+</div>
+
+
+
+
+
+<li class="nav-item ps-2">
+<button type="button" class="btn" data-bs-toggle="collapse" data-bs-target="#form" id="btn1"><i class="fa fa-user-circle-o" id="login" style="font-size:25px"></i></button></li>
+</ul>
+</div>
+<div class="collapse ms-auto" id="form">
+<form method="post" action="http://localhost:8000/pr11.php" id="form1"  class="form-floating">
+<div class="input-group">
+<input type="text" name="uname" id="uname" class="form-control-sm" placeholder="your name">
+<span class="input-group-text"><i class="fa fa-user" style="font-size:20px"></i></span></div>
+<span id="nerror" name="error"></span><br>
+<div class="input-group">
+<input type="mail" name="email" placeholder=" your emailid" id="mail" class="form-control-sm">
+<span class="input-group-text" >@</span></div>
+<span id="error" name="error"></span><br>
+<button type="submit">submit</button>
+</form>
+</div>
+<script>
+         let form=document.getElementById('form1');
+         form.addEventListener("submit", (event) => {event.preventDefault();
+             validate();
+      });
+
+      function validate(){
+        let name = document.getElementById("uname").value.trim();
+	 let mail=document.getElementById("mail").value.trim();
+	 let nameValid=true;
+	let mailValid=true;
+	 let nerror=document.getElementById('nerror');
+	 let uerror=document.getElementById('error');
+        if(name==""){
+            nerror.innerText="name cannot be null";
+            nameValid=false;
+        }
+        else if(name.length<3){
+            nerror.innerText="atleast shoud contain 3 letters";
+            nameValid=false;
+        }
+        else if(!name.match(/[a-zA-Z]/)){
+            nerror.innerText="only alphabet";
+            nameValid=false;
+        }
+        else if(name.match(/[0-9]/)){
+            nerror.innerText="only alphabet";
+            nameValid=false;
+        }
+        else{
+            nerror.innerText="";
+        }
+	
+    //mail validation
+    if(mail==""){
+		uerror.innerText="mail cant be empty";
+		mailValid=false;
+	}
+    else if(!mail.match(/([a-z A-Z 0-9]+)([@])([a-z]+)([\.]([a-z]{3,6}))/)){
+		uerror.innerText="invalid mail";
+		mailValid=false;
+
+	}
+	else{
+		uerror.innerText="";
+
+	}
+      if ( mailValid && nameValid) {
+          form.submit();
+	  notify();
+        }
+
+}
+function notify()
+{
+	x=window.confirm("Do you wanna allow notifications via email?")
+	if(x==true)
+	{
+		
+		window.alert("Thankyou! you will get updates")
+	}
+	else
+	{
+		window.alert("thankyou!")
+	}
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+</div>
+</header>
+
+<body>
+<div class="carousel slide" id="slider" data-bs-ride="carousel">
+
+<ol class="carousel-indicators">
+<li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+<li data-bs-target="#slider" data-bs-slide-to="1"></li>
+<li data-bs-target="#slider" data-bs-slide-to="2"></li>
+<li data-bs-target="#slider" data-bs-slide-to="3"></li>
+<li data-bs-target="#slider" data-bs-slide-to="4"></li>
+<li data-bs-target="#slider" data-bs-slide-to="5"></li>
+</ol>
+
+<div class="carousel-inner">
+<div class="carousel-item active" data-bs-interval="2000">
+<img src="https://img.freepik.com/premium-photo/abstract-bird-spring-flower-generative-ai_372999-13053.jpg?w=740" width="100vh" height="100%" >
+
+</div>
+<div class="carousel-item" data-bs-interval="2000">
+<img src="https://img.freepik.com/premium-photo/origami-indian-god-ganesh-colorful-flowers-craft_492154-2220.jpg?w=740"  width="100vh" height="100%" >
+<div class="carousel-caption" style="color:black">
+<h1>For you For your family For life</h1>
+</div>
+</div>
+<div class="carousel-item" data-bs-interval="2000">
+<img src="https://img.freepik.com/free-photo/wall-art-with-woman-s-face-roses-it_1340-27669.jpg?t=st=1691497674~exp=1691501274~hmac=02926e179c2567efac09983b52a032a8e0719fb5440d9944cc5d1218ba46eff9&w=740"   width="100vh" height="100%">
+</div>
+
+<div class="carousel-item" data-bs-interval="2000">
+<img src="https://img.freepik.com/premium-photo/drawing-with-brush-mandala-stone_102290-201.jpg?w=740"  width="100vh" height="100%"  >
+</div>
+<div class="carousel-item" data-bs-interval="2000">
+<img src="https://img.freepik.com/premium-vector/vector-bouquet-hand-drawn-peacocks-doodle-magnolia-sakura-flowers-beautiful-romantic-elegant-floral-composition_203056-1475.jpg?w=740"  width="100vh" height="100%" >
+
+</div>
+<div class="carousel-item" data-bs-interval="2000">
+<img src="collo.png"  width="100vh" height="100%">
+</div>
+</div>
+
+<a href="#slider" class="carousel-control-prev" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+<a href="#slider" class="carousel-control-next" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+<a href="#slider" class="carousel-control-next" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+<a href="#slider" class="carousel-control-next" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+<a href="#slider" class="carousel-control-next" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+<a href="#slider" class="carousel-control-next" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+
+
+
+<section class="shop container">
+    <h1 class="section-title" id = "Available">Available Artworks</h1>
+    <img style="width: 100%;margin-bottom: 2.5rem;" src="" alt="">
+    <div class="shop-content">
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/abstract-nature-painted-with-watercolor-autumn-leaves-backdrop-generated-by-ai_188544-9806.jpg?w=826&t=st=1691588727~exp=1691589327~hmac=8e5fe69c1a9d42333997eec1598877a1d4de6831792aa085df0e6f0811bafd00" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 345 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        
+	<div class="text-right">
+        	<button class= "button" class = "text-center"  onclick="display('sectionpaymentsection')"><a href = "payment.html">Add to cart</a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">10% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-vector/ice-sculptures-horse-dragon-swan-deer-isolated-black_107791-5252.jpg?w=740&t=st=1691506780~exp=1691507380~hmac=71ab7bde8f06631a3730faeb37454278d02f67d0197860324b6d763501e0b02e" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 999 </i>
+</button>
+        <p>inclusive of all taxes</p>
+	<div class="text-right">
+        	<button class= "button" class = "text-center" ><a href = "payment_1.html"> Add to cart</a></button>
+	</div>
+        <span class="price bg- text-success" style = "font-weight: bold">15% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+        <i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/flat-lay-beautiful-flowers-women-s-day_23-2148817751.jpg?w=740&t=st=1691515637~exp=1691516237~hmac=d2e12e592b42ebc887c6d7a415f179b115d10f23a426dbe6c0e66f9e02820700" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 520 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        
+        <div class="text-right">
+        	<button class= "button" class = "text-center" > <a href = "payment_2.html"> Add to cart </a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">20% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/woman-traditional-oriental-clothes-walks-dense-forest_456031-30.jpg?w=826&t=st=1691515932~exp=1691516532~hmac=2653abf10c9eb9e39e2f6f9a2e1c952e426ca53d93247f51400417babfb8a151" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 399 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" ><a href = "payment_3.html">Add to cart</a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">13% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/premium-vector/gold-photo-frame-with-corner-thailand-line-floral-picture_33040-107.jpg?w=740" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 589 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" ><a href = "payment_4.html">Add to cart</a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">25% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-vector/watercolor-chinese-style-background_52683-96103.jpg?w=740&t=st=1691589392~exp=1691589992~hmac=e98ca9dec3aacb7b6437953b81389fad77b2845c1f2207c8d6430cf2eedce676" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 159 </i>
+</button>	
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" ><a href = "payment_5.html">Add to cart</a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">10% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa	-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/premium-photo/painting-two-women-with-flowers-their-heads_582637-2898.jpg?w=740" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 673 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" ><a href = "payment_6.html">Add to cart</a></button>
+	</div>
+	<span class="price bg- text-success" style = "font-weight: bold">19% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img  src="https://img.freepik.com/premium-photo/flower-floating-lake-with-sunset-background_215372-179.jpg?w=740" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 891 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center"><a href = "payment_7.html">Add to cart</a></button>
+	</div>
+		<span class="price bg- text-success" style = "font-weight: bold">30% off</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+
+</section>
+
+
+
+
+<section class="shop container">
+    <h1 class="section-title" id = "soldarts">Sold Artworks</h1>
+    <img style="width: 100%;margin-bottom: 2.5rem;" src="" alt="">
+    <div class="shop-content">
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-vector/angel-with-long-wings-hand-drawn-sketch-vector-illustration_460848-15114.jpg?w=360&t=st=1691640484~exp=1691641084~hmac=6b04e0f1cb097bddd63aa3078c73f3e02d271e8057b98edc1f36887682f6350f" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 345 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        
+	<div class="text-right">
+        	<button class= "button" class = "text-center">Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/wall-art-with-woman-s-face-roses-it_1340-27669.jpg?t=st=1691642335~exp=1691645935~hmac=a28af58e2417c9150e406c564110e05e3129c38d8502891e3abfadb47e2daac0&w=740" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 999 </i>
+</button>
+        <p>inclusive of all taxes</p>
+	<div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+        <span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+        <i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg?w=740&t=st=1691643198~exp=1691643798~hmac=179ad775850a2f403c27ea0c7924374221b9eba25cfd7fc50a4b26025becb611" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 520 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/premium-photo/illustration-fantasy-peacock-peacocks-are-most-beautiful-birds-world_597321-389.jpg?w=360" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 399 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/premium-photo/radhakrishna-beautiful-statue-image-hd_181020-5313.jpg?w=360" alt="not found" class="product-img">
+         <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 589 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/free-photo/dark-floral-seamless-pattern-luxury-wallpaper-vintage-texture-generative-ai_8829-2871.jpg?w=360&t=st=1691511258~exp=1691511858~hmac=97c661596e4de76cf42d7550f04c813fc395b73a0ee1525d1f4537404587cfb0" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 159 </i>
+</button>	
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa	-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img src="https://img.freepik.com/premium-photo/watercolor-painting-digital-art_756748-1601.jpg?w=740" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 673 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <div class="product-box">
+        <img  src="https://img.freepik.com/premium-psd/pencil-sketch-photo-effect-template_574474-662.jpg?w=360" alt="not found" class="product-img">
+        <button class= "button_2">Under <i class="fa fa-inr" aria-hidden="true" style = "font-weight: bold"> 891 </i>
+</button>
+        <p>inclusive of all taxes</p>
+        <div class="text-right">
+        	<button class= "button" class = "text-center" >Add to cart</button>
+	</div>
+	<span class="price" style = "font-size: 20px; color: red ">Currently Unavailable</span><br/>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star" aria-hidden="true" style="font-size:15px"></i>
+	<i class="fa fa-star-half" aria-hidden="true"></i>
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+
+
+
+</section>
+
+
+
+<div class="follow">
+                <h4 style="color:white">Follow us on</h4>
+                <div class="btn-group btn-group-lg d-flex">
+	<button type="button" class="btn btn-primary" ><a href="https://www.facebook.com" class="text-light"><i class="fa fa-facebook-f"></i></a></button>
+	<button type="button" class="btn btn-warning" ><a href="https://www.instagram.com" class="text-light"><i class="fa fa-instagram"></i></a></button>
+	<button type="button" class="btn btn-danger" ><a href="https://www.printrest.com" class="text-light"><i class="fa fa-pinterest-p"></i></a></button>
+	<button type="button" class="btn btn-info" ><a href="https://www.twitter.com" class="text-light"><i class="fa fa-twitter"></i></a></button>
+	<button type="button" class="btn btn-success" ><a href="https://www.whatsapp.com" class="text-light"><i class="fa fa-whatsapp"></i></a></button>
+	<button type="button" class="btn btn-danger" ><a href="https://www.youtube.com" class="text-light"><i class="fa fa-youtube"></i></a></button>
+</div>
+                
+</div>
+ </div>
+</footer>
+
+
+
+</body>
+</html>
